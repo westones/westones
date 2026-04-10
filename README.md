@@ -1,6 +1,6 @@
 ## 👋 Hi, I'm Westones
 
-### Full Stack Developer | PHP & Laravel Enthusiast | Canary Islands
+### Full Stack Developer
 
 <p>
   <a href="https://github.com/westones?tab=followers">
