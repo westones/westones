@@ -1,67 +1,101 @@
-## 👋 Hi, I'm Westones
+# 👋 Hola, soy Juanma
 
-### Full Stack Developer
+### Estudiante DAW · Full Stack Developer · Server Tinkerer
 
 <p>
   <a href="https://github.com/westones?tab=followers">
     <img src="https://img.shields.io/github/followers/westones?label=Followers&style=flat-square&logo=github&color=58A6FF" alt="GitHub followers"/>
   </a>
   <img src="https://komarev.com/ghpvc/?username=westones&color=58A6FF&style=flat-square&label=Profile%20Views" alt="Profile views"/>
-  <img src="https://img.shields.io/github/stars/westones?label=Stars&style=flat-square&color=58A6FF" alt="GitHub stars"/>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 👨‍💻 Sobre mí
 
-- 🔭 &nbsp;Currently working on **inventory management systems** and **automotive workshop solutions**
-- 🌱 &nbsp;Learning **Laravel 12**, **React 18** and **modern PHP practices**
-- 💻 &nbsp;Building **robust CRUD applications** with clean architecture
-- 📍 &nbsp;Based in **Canary Islands, Spain** 🇪🇸
+- 🎓 &nbsp;Estudiante de **DAW** (3er trimestre) en Canary Islands, Spain 🇪🇸
+- 🔭 &nbsp;Desarrollando mi **TFG**: panel de administración full-stack para servidores WoW privados
+- 🧠 &nbsp;Programando módulos en **C++** para [AzerothCore](https://www.azerothcore.org/) — comportamiento dinámico de NPCs con IA
+- 🌱 &nbsp;Aprendiendo **Laravel 12**, **React 18** y arquitectura de aplicaciones reales
+- 🐳 &nbsp;Fan de Docker, el cacharreo de servidores y los servidores privados de WoW
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend & Languages
+### Backend & Lenguajes
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Frameworks & Libraries
+### Frameworks & Librerías
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-5A08F8?style=for-the-badge&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### Databases & DevOps
+### Bases de datos & DevOps
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
-![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 ---
 
-## 📂 Featured Projects
+## 📂 Proyectos destacados
+
+### ⚙️ AzerothCore Admin Panel *(TFG)*
+**Node.js + Express + React + Socket.io + Vite**
+
+Panel de administración full-stack para servidores WoW WotLK privados basados en AzerothCore. Arquitectura dual Docker/nativa, consola SOAP en tiempo real, gestión completa del servidor.
+
+| Feature | Descripción |
+|---------|-------------|
+| 🔐 | Autenticación JWT con refresh tokens |
+| 📊 | Dashboard en tiempo real con métricas del servidor |
+| 👥 | Gestión de jugadores, cuentas y gremios |
+| 💬 | Consola SOAP en vivo vía Socket.io |
+| 💰 | Gestión de economía del servidor |
+| 🐳 | Soporte Docker + adaptador nativo |
+
+**Stack:** Node.js · Express · React · Socket.io · Vite · Tailwind · MySQL · SQLite · Docker
+
+---
+
+### 🧠 mod-living-world
+**C++ · AzerothCore**
+
+Módulo personalizado para AzerothCore que da comportamiento dinámico e IA a los NPCs del mundo. Reescrito desde cero tras diagnosticar y corregir problemas críticos de consumo de RAM (de +12GB a <7GB).
+
+| Feature | Descripción |
+|---------|-------------|
+| 💬 | Diálogos dinámicos entre NPCs |
+| 🌦️ | Reacciones al clima y ciclo día/noche |
+| 🗺️ | Eventos de zona personalizados |
+| 🧮 | `CooldownManager` optimizado con clave uint64 plana |
+| ⚡ | Stagger de speech por NPC con `jitterOffset` |
+
+---
 
 ### 🚗 Auto Taller Manager
 **Laravel 12 + Inertia.js + React**
 
 Sistema de gestión integral para talleres mecánicos con autenticación, roles de usuario y dashboard profesional.
 
-| Feature | Description |
-|---------|------------|
-| 🔐 | Authentication with Laravel Breeze |
-| 👥 | User Roles: Admin, Receptionist, Mechanic |
-| 📊 | Real-time Dashboard |
-| 📱 | Responsive React UI |
+| Feature | Descripción |
+|---------|-------------|
+| 🔐 | Autenticación con Laravel Breeze |
+| 👥 | Roles: Admin, Recepcionista, Mecánico |
+| 📊 | Dashboard en tiempo real |
+| 📱 | UI responsive con React |
 
-**[View Repository →](https://github.com/westones/Auto-taller-manager)**
+**[Ver repositorio →](https://github.com/westones/Auto-taller-manager)**
 
 ---
 
@@ -70,15 +104,29 @@ Sistema de gestión integral para talleres mecánicos con autenticación, roles 
 
 Sistema CRUD profesional para gestión de inventario con cálculo automático de IGIC y control de stock.
 
-| Feature | Description |
-|---------|------------|
-| 📦 | Complete Product CRUD |
-| 🏷️ | IGIC Calculation (7%) |
-| 📈 | Stock Alerts |
-| 🗑️ | Soft Delete + Restore |
-| 📅 | Expiry Date Tracking |
+| Feature | Descripción |
+|---------|-------------|
+| 📦 | CRUD completo de productos |
+| 🏷️ | Cálculo de IGIC (7%) |
+| 📈 | Alertas de stock |
+| 🗑️ | Soft Delete + Restauración |
+| 📅 | Control de fechas de caducidad |
 
-**[View Repository →](https://github.com/westones/tienda-alimentacion-manager)**
+**[Ver repositorio →](https://github.com/westones/tienda-alimentacion-manager)**
+
+---
+
+### 🎮 RogueNet
+**Vanilla JS + p5.js + Bootstrap 5**
+
+Roguelike con estética cyberpunk/netrunner. Generación procedural de mapas BSP, combate por turnos y sistema de equipamiento.
+
+| Feature | Descripción |
+|---------|-------------|
+| 🗺️ | Generación procedural BSP |
+| 🌫️ | Fog of war |
+| ⚔️ | Combate por turnos |
+| 🎒 | Sistema de equipamiento de 3 slots |
 
 ---
 
@@ -94,14 +142,10 @@ Sistema CRUD profesional para gestión de inventario con cálculo automático de
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contacto
 
 <a href="https://github.com/westones" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-westones-181717?style=for-the-badge&logo=github" alt="GitHub"/>
 </a>
 
 ---
-
-<p align="center">
-  <em>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</em>
-</p>
